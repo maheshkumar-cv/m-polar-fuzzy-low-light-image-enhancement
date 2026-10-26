@@ -32,7 +32,7 @@ See [Citation](#citation) below for the BibTeX entry.
 
 | File | Description |
 |---|---|
-| `mfe.py` | Self-contained pipeline: m-polar fuzzy image generation, the contrast/saturation/well-exposedness measures, Gaussian and Laplacian pyramids, and exposure fusion (`fuzzy_exposure_fusion`). Python port of the MATLAB `expFusion` class. Also runnable as a script. |
+| `mfe.py` | Self-contained pipeline: m-polar fuzzy image generation, the contrast/saturation/well-exposedness measures, Gaussian and Laplacian pyramids, and exposure fusion (`fuzzy_exposure_fusion`).|
 | `app.py` | Interactive Streamlit demo that visualizes every stage of the pipeline — the m poles, the per-pole weight maps, the fused result with histograms, and a PNG download. |
 | `requirements.txt` | Python dependencies. |
 | `sample.png` | *(optional)* Bundle your own low-light test image under this name and both scripts will use it as their default input. |
